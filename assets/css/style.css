@@ -1,0 +1,90 @@
+/* --- CYBERPUNK HACKER THEME OVERRIDE --- */
+
+/* Background: deep neon cyberpunk night */
+body {
+  background: #050505;
+  background-image: radial-gradient(circle at center, #0a0a0a 0%, #000000 70%);
+  color: #00ffea;
+  font-family: "Fira Code", monospace;
+}
+
+/* Hyper-neon links */
+a {
+  color: #00f6ff;
+  text-shadow: 0 0 8px #00f6ff;
+}
+a:hover {
+  color: #ff00d4;
+  text-shadow: 0 0 12px #ff00d4;
+}
+
+/* Neon headers */
+h1, h2, h3 {
+  color: #00ff9c;
+  text-shadow: 0 0 10px #00ff9c, 0 0 20px #00ff9c;
+  letter-spacing: 1px;
+}
+
+/* Glitchy hover effect (subtle) */
+h1:hover, h2:hover {
+  animation: glitch 0.3s infinite;
+}
+
+@keyframes glitch {
+  0% { text-shadow: 2px 2px #ff00d4; }
+  25% { text-shadow: -2px -2px #00f6ff; }
+  50% { text-shadow: 2px -2px #ff00d4; }
+  75% { text-shadow: -2px 2px #00f6ff; }
+  100% { text-shadow: 2px 2px #ff00d4; }
+}
+
+/* Cyberpunk horizontal rule */
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, #ff00d4, #00f6ff);
+  box-shadow: 0 0 10px #ff00d4;
+}
+
+/* Code blocks: neon glow */
+pre, code {
+  background: rgba(0, 255, 200, 0.05);
+  border: 1px solid #00ffc8;
+  box-shadow: 0 0 8px #00ffc8;
+  color: #00ffc8;
+}
+
+/* Buttons style (if needed) */
+button, .btn {
+  background: #0d0d0d;
+  border: 2px solid #ff00d4;
+  color: #ff00d4;
+  padding: 8px 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 0 12px #ff00d4;
+}
+button:hover, .btn:hover {
+  color: #00f6ff;
+  border-color: #00f6ff;
+  box-shadow: 0 0 15px #00f6ff;
+}
+
+/* Optional: CRT scanline effect */
+body::after {
+  content: "";
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255,255,255,0.02) 0px,
+    rgba(255,255,255,0.02) 1px,
+    transparent 2px
+  );
+  mix-blend-mode: overlay;
+  opacity: 0.16;
+}
