@@ -25,11 +25,11 @@ During my master program in Bioinformatics I work with Python, RStudio, Git and 
 
 ## Projects
 
-### Barcode Trimming Pipeline
-Python tool that categorizes FASTQ reads using 5'-end barcodes and outputs sample-specific files.
+### de novo Assembly
+Small pipeline created during course BINP29 using different tools.
 
-### Amino Acid Counter
-Script for counting amino acid abundances from multi-FASTA files, including unknowns.
+### SkinMicroMap
+Creating a pipeline to analyse Amplicon data into krona plots for visualisation of geographical distribution of skin microbiome.
 
 ### Ecological GLM Models
 R scripts for modeling ecological count data using negative binomial GLMs.
@@ -37,11 +37,10 @@ R scripts for modeling ecological count data using negative binomial GLMs.
 ---
 
 ## CV
-[Download my CV](cv.pdf)
+# [Download my CV](cv.pdf)
 
 ---
 
-## Contact  
-**Email:** ariane.neumann84@gmail.com  
+## Contact   
 **GitHub:** https://github.com/arineu84  
 **ORCID:** 0000-0002-8636-730X
