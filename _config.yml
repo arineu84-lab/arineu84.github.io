@@ -1,13 +1,6 @@
 title: "Ariane Neumann"
-description: "Bioinformatic student at LU, previous Infection Medicine researcher, podcast host"
-theme: jekyll-theme-hacker 
+description: "Bioinformatics student at Lund University, former infection medicine researcher, podcast co-host"
 
-# Optional
-# logo: /assets/img/profile.jpg
-show_downloads: false
-google_analytics:
-
-
-# Custom cyberpunk CSS
-sass:
-  style: compressed
+# Keep the repo's README and similar files out of the built site
+exclude:
+  - README.md
