@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ariane Neumann | Bioinformatics &amp; Client Management</title>
-<meta name="description" content="Bioinformatics student with a background in infection medicine, moving into client management. Co-host of The Tölt Tales podcast.">
+<meta name="description" content="Bioinformatics student, former researcher in infection medicine, transitioning into industry. Co-host of The Tölt Tales podcast.">
 <style>
   :root {
     --bg: #ffffff;
@@ -95,15 +95,14 @@
 
     <div class="hero" id="about">
       <h1>Scientist turning technical depth into practical solutions for clients.</h1>
-      <p class="tagline">Bioinformatics student with a background in infection medicine, now moving into client management.</p>
+      <p class="tagline">Bioinformatics student, former researcher in infection medicine, transitioning into industry.</p>
       <p class="lead">
         I am studying bioinformatics with a focus on the evolution of genome structure. Before that, I worked as a researcher in infection medicine, studying immune cells and host-pathogen interactions.
-        I am looking to bring my scientific mindset to a client management role, helping deliver practical solutions and supporting stakeholder success.
+        I am looking to bring my scientific mindset, helping deliver practical solutions and supporting stakeholder success.
       </p>
       <div class="buttons">
-        <a class="btn-primary" href="mailto:your.email@example.com">Get in touch</a>
+        <a class="btn-primary" href="mailto:arianen@vikinghast.se">Get in touch</a>
         <a class="btn-secondary" href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener">LinkedIn</a>
-        <a class="btn-secondary" href="cv.pdf">Download CV</a>
       </div>
     </div>
 
@@ -138,7 +137,7 @@
         </div>
         <div class="card">
           <h3>De novo assembly</h3>
-          <p>A small assembly pipeline built during the course BINP29, combining several tools into one workflow.</p>
+          <p>A small assembly pipeline built during LU course, combining several tools into one workflow.</p>
         </div>
       </div>
     </section>
@@ -175,7 +174,7 @@
         <span>Bioinformatics pipelines</span>
         <span>Genome assembly and annotation</span>
         <span>Multiple sequence alignment</span>
-        <span>SNP analysis</span>
+        <span>RE analysis</span>
         <span>Microbial genomics</span>
         <span>Ecological GLMs</span>
         <span>Flow cytometry</span>
